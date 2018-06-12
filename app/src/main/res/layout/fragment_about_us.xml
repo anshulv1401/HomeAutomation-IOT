@@ -1,0 +1,178 @@
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.anshulvanawat.onmytips.Other_Fragment_Activities.AboutUsFragment"
+    android:layout_centerHorizontal="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/skit_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/skit_logo"
+            android:padding="10dp"
+            />
+
+        <TextView
+            android:layout_below="@id/skit_logo"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\tUnder the guidance of Mrs. POOJA CHOUDARY, we, the students of SKIT,JAIPUR, have completed our project ‘Controlling of home appliances using mobile phone’ successfully.
+\n\n\t
+In this project we are able to control the home appliances using mobile phone through internet, hence controlling from anywhere around the world.
+"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:layout_below="@+id/textView"
+            android:text="\n\nAbout application: -"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:layout_below="@+id/textView3"
+            android:text="\n\t
+This mobile application is the part of the project ‘controlling home appliances using mobile phone’ which has been designed to be user-friendly and to help accommodate user’s needs. Due to its high DYNAMICITY, the content of the application can be changes according to the user’s needs for different users without changing the application in one’s phone. The Application is designed to be a MULTI-USER application, hence this project can be updated for commercial use.
+"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/textView4"
+            android:text="\n\nAbout Project:-"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:layout_below="@+id/textView5"
+            android:text="\n\tThe project ‘controlling of home appliances using mobile phone’ is a low cost and flexible control system. It uses a mobile application and Home appliances as a FRONT END whereas an online server, website, database, Arduino mega 2560 with Ethernet and relay system as a BACK END. Website acts as an interface between mobile application and database. Database stores the details about the appliances and there states (ON/OFF). Mobile Application connects to the server and fetches the details stored in database and displays to the user. User interacts with the application and changes the states according to the use, which is reflected in the database.  Arduino, with the help of Ethernet shield, connects to the online server database and fetches the data about the appliances. This data is the converted into instruction and sent to the relay which in turn switch OFF or ON accordingly. The range of the project is AROUND THE GLOBE where ever you can get internet connection on your phone.
+\n\n
+This Application is designed and developed by ANSHUL VANAWAT
+\n\n
+For queries, mail at: - anshulv1401@gmail.com"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_below="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+            android:text="TEAM"
+            android:textColor="@color/colorPrimary"
+            android:padding="15sp"
+            android:layout_centerHorizontal="true"
+            android:textStyle="normal|bold|italic" />
+        <com.example.anshulvanawat.onmytips.RoundedImageView
+            android:layout_below="@id/textView2"
+            android:layout_marginTop="20dp"
+            android:id="@+id/teamLeader"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/user_image"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/teamLeaderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teamLeader"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:text="ANSHUL VANAWAT"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <com.example.anshulvanawat.onmytips.RoundedImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/teamMember1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/member_a"
+            android:layout_below="@id/teamLeaderText"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/teamMember1Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teamMember1"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:text="ARCHIKA SINGH"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <com.example.anshulvanawat.onmytips.RoundedImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/teamMember2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/member_l"
+            android:layout_below="@id/teamMember1Text"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/teamMember2Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teamMember2"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:text="LAVEENA AGARWAL"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <com.example.anshulvanawat.onmytips.RoundedImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/teamMember3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/member_kh"
+            android:layout_below="@id/teamMember2Text"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/teamMember3Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teamMember3"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:text="KHUSHAL SHARMA"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+        <com.example.anshulvanawat.onmytips.RoundedImageView
+            android:layout_marginTop="20dp"
+            android:id="@+id/teamMember4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/member_kr"
+            android:layout_below="@id/teamMember3Text"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/teamMember4Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/teamMember4"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:text="KRITIMA GUPTA"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+    </RelativeLayout>
+</ScrollView>
+

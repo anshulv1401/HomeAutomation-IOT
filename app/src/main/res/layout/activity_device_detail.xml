@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_device_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anshulvanawat.onmytips.main_activities.DeviceDetail">
+
+    <TextView
+        android:id="@+id/nameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:text="Name"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        />
+
+    <TextView
+        android:id="@+id/deviceIdText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Id"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_below="@+id/nameText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+
+    <TextView
+        android:text="Room No."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deviceIdText"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/roomText"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        />
+
+    <TextView
+        android:text="Power\nconsumption "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/roomText"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/powerDetailText" />
+
+    <TextView
+        android:text="Device Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:id="@+id/deviceNameText"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/powerDetailText" />
+
+    <TextView
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/deviceIdText"
+        android:layout_alignStart="@+id/deviceNameText"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:id="@+id/idText" />
+
+    <TextView
+        android:text="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/powerDetailText"
+        android:layout_alignStart="@+id/idText"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:id="@+id/roomNoText" />
+
+    <TextView
+        android:text="40W"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/powerDetailText"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:layout_alignStart="@+id/roomNoText"
+        android:id="@+id/powerText" />
+
+
+    <TextView
+        android:text="Status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:id="@+id/statusText"
+        android:layout_alignTop="@+id/statusToggle"
+        android:layout_alignParentStart="true" />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:id="@+id/statusToggle"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_marginTop="47dp"
+        android:layout_below="@+id/powerText"
+        android:layout_alignStart="@+id/powerText" />
+</RelativeLayout>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:descendantFocusability="blocksDescendants"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/device_icon_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device Name_view"
+        android:id="@+id/device_name_view"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/device_icon_view"
+        android:layout_marginLeft="15dp"
+        android:ellipsize="end"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:switchMinWidth="50dp"
+        android:textColor="@android:color/background_light"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_alignBottom="@+id/device_icon_view"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="13dp" />
+
+
+</RelativeLayout>

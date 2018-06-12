@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.anshulvanawat.onmytips.main_activities.RoomFragment">
+
+    <ImageView
+        android:src="@drawable/living_room"
+        android:id="@+id/imageViewRoom1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:text="Bed Room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewRoom3"
+        android:layout_alignEnd="@+id/imageViewRoom2"
+        android:layout_marginEnd="15dp"
+        android:id="@+id/textView3"
+        android:textColor="@color/colorAccent"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/kitchen"
+        android:id="@+id/imageViewRoom3"
+        android:layout_alignBottom="@+id/imageViewRoom2"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="11dp" />
+
+    <TextView
+        android:text="Kitchen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:layout_alignBaseline="@+id/textView3"
+        android:layout_alignBottom="@+id/textView3"
+        android:layout_alignStart="@+id/imageViewRoom3"
+        android:layout_marginStart="20dp"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+
+    <TextView
+        android:text="Living Room"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView"
+        android:textColor="@color/colorAccent"
+        android:layout_below="@+id/imageViewRoom1"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+
+    <TextView
+        android:text="ROOMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textSize="30sp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageViewRoom2"
+        android:src="@drawable/bed_room"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="72dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        />
+
+
+</RelativeLayout>

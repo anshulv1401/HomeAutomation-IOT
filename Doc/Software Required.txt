@@ -1,0 +1,6 @@
+Xampp
+Android studio
+Arduino ide
+
+sqlyog(optional)
+Dreamweaver 8(optional)
